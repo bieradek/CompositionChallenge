@@ -1,11 +1,13 @@
 package TimsChallengeCode;
 
 public class Wall {
-    private int width;
-    private int height;
+    private String direction;
 
-    public Wall(int width, int height) {
-        this.width = width;
-        this.height = height;
+    public Wall(String direction) {
+        this.direction = direction;
+    }
+
+    public String getDirection() {
+        return direction;
     }
 }
