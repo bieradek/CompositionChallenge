@@ -12,8 +12,7 @@ public class Main {
 	but to access the object used in composition within the main class
 	 */
         // optional initialization --> Doors doors = new Doors("Wooden");
-        Room room = new Room(new Doors("Wooden"), new Dimensions(3, 4, 2), new Color("Red"));
-        House willa = new House(room);
+        Room livingRoom = new Room(new Doors("Wooden"), new Dimensions(3, 4, 2), new Color("Red"));
 
     }
 }
