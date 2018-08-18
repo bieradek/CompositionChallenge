@@ -21,6 +21,9 @@ public class Main {
         Lamp lamp = new Lamp("Modern", false, 5);
         //finally creating the bedroom
         Bedroom bedroom = new Bedroom("Tim's bedroom", wall1, wall2, wall3, wall4, ceiling, bed, lamp);
+        bedroom.makeBed();
+        //same as:
+        bedroom.getBed().make();
     }
 }
 
